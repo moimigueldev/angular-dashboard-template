@@ -12,12 +12,14 @@ import { ToastrModule } from 'ngx-toastr';
 
 import { PerformanceComponent } from './graphs/performace/performance.component';
 import { TotalShipmentsComponent } from './graphs/total-shipments/total-shipments.component';
+import { ListComponent } from './graphs/list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PerformanceComponent,
-    TotalShipmentsComponent
+    TotalShipmentsComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
