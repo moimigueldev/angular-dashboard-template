@@ -11,11 +11,13 @@ import { RouterModule } from "@angular/router";
 import { ToastrModule } from 'ngx-toastr';
 
 import { PerformanceComponent } from './graphs/performace/performance.component';
+import { TotalShipmentsComponent } from './graphs/total-shipments/total-shipments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PerformanceComponent
+    PerformanceComponent,
+    TotalShipmentsComponent
   ],
   imports: [
     BrowserModule,
