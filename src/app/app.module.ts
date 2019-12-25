@@ -13,13 +13,17 @@ import { ToastrModule } from 'ngx-toastr';
 import { PerformanceComponent } from './graphs/performace/performance.component';
 import { TotalShipmentsComponent } from './graphs/total-shipments/total-shipments.component';
 import { ListComponent } from './graphs/list/list.component';
+import { LoginComponent } from './login/login.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     PerformanceComponent,
     TotalShipmentsComponent,
-    ListComponent
+    ListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import { ListComponent } from './graphs/list/list.component';
     ComponentsModule,
     NgbModule,
     RouterModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
