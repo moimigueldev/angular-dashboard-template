@@ -9,12 +9,13 @@ import { ComponentsModule } from "./components/components.module";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { RouterModule } from "@angular/router";
 import { ToastrModule } from 'ngx-toastr';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
+import { PerformanceComponent } from './graphs/performace/performance.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    PerformanceComponent
   ],
   imports: [
     BrowserModule,
